@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ECommerce</title>
+</head>
+<script> 
+function myFunction(){
+    alert(" Added to cart!!!!");
+    console.log('clicked..');
+}
+function picClick(){
+    alert("Show views of images")
+    console.log('view images.')
+}
+</script>
+<body>
+    <div class="header">
+        <h1> Simple Ecom page</h1>
+    </div>
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Products">Product</a></li>
+        </ul>
+    </div>
+   <div class="container">
+       <ul>
+           <li><img onclick="picClick()" src="headphone.jpeg" alt="p1" width="320px" height="170px"> 
+            <button id="btn" onclick="myFunction()">  $1399</button></li>
+            <li><img onclick="picClick()" src="watch1.jpeg" alt="p1" width="320px" height="170px"> 
+                <button id="btn" onclick="myFunction()"> $999</button></li>
+                <li><img onclick="picClick()" src="watch.jpeg" alt="p1" width="320px" height="170px"> 
+                    <button id="btn" onclick="myFunction()">$ 800</button></li>
+           </ul>
+           <ul>
+            <li><img onclick="picClick()" src="pant.jpeg" alt="p1" width="320px" height="170px"> 
+             <button id="btn" onclick="myFunction()">  $1200</button></li>
+             <li><img onclick="picClick()" src="download (1).jpeg" alt="p1" width="320px" height="170px"> 
+                 <button id="btn" onclick="myFunction()"> $1400</button></li>
+                 <li><img onclick="picClick()" src="download.jpeg" alt="p1" width="320px" height="170px"> 
+                     <button id="btn" onclick="myFunction()">$ 800</button></li>
+            </ul>
+            <ul>
+                <li><img onclick="picClick()" src="belt.jpeg" alt="p1" width="320px" height="170px"> 
+                 <button id="btn" onclick="myFunction()">  $300</button></li>
+                 <li><img onclick="picClick()" src="belt2.jpeg" alt="p1" width="320px" height="170px"> 
+                     <button id="btn" onclick="myFunction()"> $1000</button></li>
+                     <li><img onclick="picClick()" src="belt1.jpeg" alt="p1" width="320px" height="170px"> 
+                         <button id="btn" onclick="myFunction()">$ 599</button></li>
+                </ul>
+                <ul>
+                    <li><img onclick="picClick()" src="shoes2.jpeg" alt="p1" width="320px" height="170px"> 
+                     <button id="btn" onclick="myFunction()">  $2999</button></li>
+                     <li><img onclick="picClick()" src="shoes3.jpeg" alt="p1" width="320px" height="170px"> 
+                         <button id="btn" onclick="myFunction()"> $899</button></li>
+                         <li><img onclick="picClick()" src="shoes4.jpeg" alt="p1" width="320px" height="170px"> 
+                             <button id="btn" onclick="myFunction()">$ 599</button></li>
+                    </ul>
+                    <ul>
+                        <li><img onclick="picClick()" src="glass.jpeg" alt="p1" width="320px" height="170px"> 
+                         <button id="btn" onclick="myFunction()">  $1299</button></li>
+                         <li><img onclick="picClick()" src="glass1.jpeg" alt="p1" width="320px" height="170px"> 
+                             <button id="btn" onclick="myFunction()"> $1500</button></li>
+                             <li><img onclick="picClick()" src="glass2.jpeg" alt="p1" width="320px" height="170px"> 
+                                 <button id="btn" onclick="myFunction()">$ 1699</button></li>
+                        </ul>
+       
+       </ul>
+   </div>
+   <footer class="foot">
+        <h1>Made by <strong>Kailash yadav</strong></h1>
+   </footer>
+
+</body>
+</html>

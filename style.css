@@ -1,0 +1,64 @@
+.header{
+    
+    border: 3px solid grey; 
+    background-color: dodgerblue;
+    text-align: center;
+    margin:0%;
+
+    font-size: large;
+    color: white;
+    font-style: italic;
+    padding: 0%;
+}
+.navbar ul{
+    list-style-type:none ;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+.navbar li a :hover{
+    background-color: #111111;
+}
+
+.container ul{
+    list-style-type: none;
+    margin: 12px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+.container li{
+    float: left;
+}
+.container  #btn{
+    font-style: italic;
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+}
+.container #btn:hover{
+    background-color:tomato;
+}
+.foot{
+    border: 3px solid black;
+    border-radius: 2px;
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+}
